@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# DRM
+PRODUCT_PACKAGES += \
+    liboemcrypto.so
+
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
